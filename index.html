@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JQUERY</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--necessary files input -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!--navigation bar -->
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">OMDB Search</a>
+      </div>
+      <!--search options -->
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <span class="navSearch">
+          <input type="text" class="form-control search pull-left" name="username" placeholder="Search Movie">
+          <button type="button" class="btn btn-success searchButton pull-right">
+            <span class="glyphicon glyphicon-search"></span></button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br><br>
+    <!--movie description -->
+    <div class="container">
+      <center><ul id="movie">
+
+      </ul>
+      </center>
+    </div>
+    <br>
+    <!--pagination -->
+    <div class="container">
+      <center><ul id="page" class="pagination">
+
+      </ul>
+    </center>
+  </div>
+</body>
+</html>

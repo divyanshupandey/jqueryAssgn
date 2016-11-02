@@ -1,0 +1,124 @@
+body
+{
+  background-color: #f1f1f1;
+}
+.icon-bar
+{
+  background-color: black;
+}
+.search
+{
+  width: 75%;
+}
+.searchButton
+{
+  width: 24%;
+}
+.navSearch
+{
+  margin-top: 8px;
+  float: right;
+  width:25%;
+}
+.colHeight
+{
+  height:530px;
+}
+.navbar
+{
+  background-color:  #75a3a3;
+}
+.navbar-brand
+{
+  font-style: italic;
+  font-size: 25px;
+  color: black;
+}
+li
+{
+  list-style:none;
+  font-size: 20px;
+  line-height:40px;
+}
+img
+{
+  height: 350px;
+  width:  340px;
+}
+@media (max-width:1200px)
+{
+  h2
+  {
+    font-size: 26px;
+  }
+  .navSearch
+  {
+    margin-top: 8px;
+    float: right;
+    width:30%;
+  }
+  img
+  {
+    height: 300px;
+    width:  280px;
+  }
+  li{
+    list-style:none;
+    font-size: 18px;
+    line-height:35px;
+  }
+}
+@media (max-width:991px)
+{
+  h2
+  {
+    font-size: 26px;
+  }
+  img
+  {
+    height: 350px;
+    width:  340px;
+  }
+  li{
+    list-style:none;
+    font-size: 18px;
+    line-height:35px;
+  }
+}
+@media (max-width:768px)
+{
+  .navSearch
+  {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width:100%;
+  }
+  h2
+  {
+    font-size: 28px;
+  }
+}
+@media (max-width:524px)
+{
+  h2
+  {
+    font-size: 26px;
+  }
+}
+@media (max-width:460px)
+{
+  h2
+  {
+    font-size: 22px;
+  }
+  img
+  {
+    height: 260px;
+    width:  250px;
+  }
+  li{
+    list-style:none;
+    font-size: 16px;
+    line-height:32px;
+  }
+}
