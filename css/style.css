@@ -45,6 +45,14 @@ img
   height: 350px;
   width:  340px;
 }
+#page
+{
+  display: table;
+  float: none;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
 @media (max-width:1200px)
 {
   h2
@@ -107,6 +115,10 @@ img
 }
 @media (max-width:460px)
 {
+  .colHeight
+  {
+    height:430px;
+  }
   h2
   {
     font-size: 22px;
